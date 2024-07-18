@@ -9,7 +9,7 @@ COPY packages ./packages
 
 #Install Deps
 
-RUN npm Install
+RUN npm install
 RUN npm run db:generate
 RUN npm run build
 
